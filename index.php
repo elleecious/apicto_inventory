@@ -40,7 +40,7 @@ if (isset($_POST['add_computers'])) {
                     UPS/AVR Capacity: ".$_POST['ups_avr_capacity']."<br>
                     Date Acquired: ".$_POST['date_acquired']."<br>
                     Remarks: ".$_POST['remarks']."<br>
-                    Date Added: ".$_POST['date_added']."
+                    Date Added: ".date("Y-m-d")."
                 </p>
             </details>",date("Y-m-d H:i:s a")));
     
